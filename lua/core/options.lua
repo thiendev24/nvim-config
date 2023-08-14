@@ -5,6 +5,10 @@
 
 local o = vim.o
 local wo = vim.wo
+local opt = vim.opt
+
+-- highlight current cursorline
+opt.cursorline = true
 
 -- Set highlight on search
 o.hlsearch = true
