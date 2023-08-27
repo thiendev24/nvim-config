@@ -99,6 +99,9 @@ require('lazy').setup({
     },
   },
 
+  -- vim icons
+  require('core.vim-devicons'),
+
   -- Useful plugin to show you pending keybinds.
   require('core.which-key'),
 
